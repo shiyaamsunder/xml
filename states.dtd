@@ -1,0 +1,8 @@
+<!ELEMENT states (state+)>
+<!ELEMENT state (name, capital, area, pop, crop)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT captial (#PCDATA)>
+<!ELEMENT area (#PCDATA)>
+<!ELEMENT pop (#PCDATA)>
+<!ELEMENT crop (#PCDATA)>
+

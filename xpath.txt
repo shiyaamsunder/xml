@@ -1,0 +1,42 @@
+1.
+/states/state[name="Tamil Nadu"]/lang
+
+
+2.
+/states/state[name="Kerala"]/area
+
+3.
+/states/state[pop>1000000]/name
+
+ans:
+<name>Andhra Pradesh</name>
+<name>Arunachal Pradesh</name>
+<name>Assam</name>
+<name>Bihar</name>
+<name>Chhattisgarh</name>
+<name>Goa</name>
+<name>Gujarat</name>
+<name>Haryana</name>
+<name>Himachal Pradesh</name>
+<name>Jharkhand</name>
+<name>Karnataka</name>
+<name>Kerala</name>
+<name>Madhya Pradesh</name>
+<name>Maharashtra</name>
+<name>Manipur</name>
+<name>Meghalaya</name>
+<name>Mizoram</name>
+<name>Nagaland</name>
+<name>Odisha</name>
+<name>Punjab</name>
+<name>Rajasthan</name>
+<name>Tamil Nadu</name>
+<name>Telangana</name>
+<name>Tripura</name>
+<name>Uttar Pradesh</name>
+<name>Uttarakhand</name>
+<name>West Bengal</name>
+
+5.
+/states/count(state[area>100000])
+
