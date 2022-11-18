@@ -1,5 +1,14 @@
+<!DOCTYPE note [
+<!ELEMENT states (state+)>
+<!ELEMENT state (name, capital, area, pop, crop)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT captial (#PCDATA)>
+<!ELEMENT area (#PCDATA)>
+<!ELEMENT pop (#PCDATA)>
+<!ELEMENT crop (#PCDATA)>
+]>
+
 <?xml version="1.0"?>
-<!DOCTYPE states SYSTEM "states.dtd">
 <states>
   <state>
     <name>Andhra Pradesh</name>
@@ -7,14 +16,14 @@
     <area>162975</area>
     <pop>49506799</pop>
     <crop>Paddy</crop>
-    <lang>Telegu</lang>
+    <lang>Telugu</lang>
   </state>
   <state>
     <name>Arunachal Pradesh</name>
     <capital>Itanagar</capital>
     <area>83743</area>
     <pop>1383727</pop>
-    <crop>Paddy</crop>
+    <crop>Maize</crop>
     <lang>English</lang>
   </state>
   <state>
@@ -22,7 +31,7 @@
     <capital>Dispur</capital>
     <area>78550</area>
     <pop>31205576</pop>
-    <crop>Paddy</crop>
+    <crop>Tea</crop>
     <lang>Assamese</lang>
   </state>
   <state>
@@ -55,14 +64,14 @@
     <area>196024</area>
     <pop>60439692</pop>
     <crop>Paddy</crop>
-    <lang>Gujarati</lang>
+    <lang>Cotton</lang>
   </state>
   <state>
     <name>Haryana</name>
     <capital>Chandigarh</capital>
     <area>44212</area>
     <pop>25351462</pop>
-    <crop>Paddy</crop>
+    <crop>Wheat</crop>
     <lang>Hindi</lang>
   </state>
   <state>
@@ -87,7 +96,7 @@
     <capital>Bangalore</capital>
     <area>191791</area>
     <pop>61095297</pop>
-    <crop>Paddy</crop>
+    <crop>Pepper</crop>
     <lang>Kannada</lang>
   </state>
   <state>
@@ -95,7 +104,7 @@
     <capital>Thriuvananthapuram</capital>
     <area>38863</area>
     <pop>33406061	</pop>
-    <crop>Paddy</crop>
+    <crop>Coconut</crop>
     <lang>Malayalam</lang>
   </state>
   <state>
@@ -103,7 +112,7 @@
     <capital>Bhopal</capital>
     <area>308252</area>
     <pop>72626809</pop>
-    <crop>Paddy</crop>
+    <crop>Hemp</crop>
     <lang>Hindi</lang>
   </state>
   <state>
@@ -111,7 +120,7 @@
     <capital>Mumbai</capital>
     <area>307713</area>
     <pop>112374333</pop>
-    <crop>Paddy</crop>
+    <crop>Cotton</crop>
     <lang>Marathi</lang>
   </state>
   <state>
@@ -143,7 +152,7 @@
     <capital>Kohima</capital>
     <area>16579</area>
     <pop>1978502</pop>
-    <crop>Paddy</crop>
+    <crop>Tea</crop>
     <lang>Nagaland</lang>
   </state>
   <state>
@@ -151,7 +160,7 @@
     <capital>Bhubaneswar</capital>
     <area>155820</area>
     <pop>41974218	</pop>
-    <crop>Paddy</crop>
+    <crop>Turmeric</crop>
     <lang>Odia</lang>
   </state>
   <state>
@@ -159,7 +168,7 @@
     <capital>Chandigarh</capital>
     <area>50362</area>
     <pop>27743338</pop>
-    <crop>Paddy</crop>
+    <crop>Wheat</crop>
     <lang>Punjabi</lang>
   </state>
   <state>
@@ -167,7 +176,7 @@
     <capital>Jaipur</capital>
     <area>342269</area>
     <pop>68548437</pop>
-    <crop>Paddy</crop>
+    <crop>Wheat</crop>
     <lang>Hindi</lang>
   </state>
   <state>
@@ -207,7 +216,7 @@
     <capital>Lucknow</capital>
     <area>243286</area>
     <pop>199812341</pop>
-    <crop>Paddy</crop>
+    <crop>Wheat</crop>
     <lang>Hindi</lang>
   </state>
   <state>
@@ -223,8 +232,7 @@
     <capital>Kolkata</capital>
     <area>88752</area>
     <pop>91276115</pop>
-    <crop>Paddy</crop>
+    <crop>Jute</crop>
     <lang>Bengali</lang>
   </state>
 </states>
-
