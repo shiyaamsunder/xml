@@ -323,8 +323,39 @@ void delete_at_end(pNode* head){
   printf("Deleted\n");
 }
 
-void delete_at_pos(pNode *head, int pos){
-  delete_before(head, pos);
+void delete_at_pos(pNode *head, int pos)
+{
+  if (*head == NULL)
+  {
+    printf("\nList is Empty\n");
+  }
+  else
+  {
+    if (pos == LENGTH)
+    {
+      printf("There is no element after position %d\n", pos);
+    }
+    else if (pos > LENGTH || pos < 0)
+    {
+      printf("\nEnter valid position. Size of the list is %d\n", LENGTH);
+    }
+    else
+    {
+
+      pNode temp = *head;
+      pNode prev;
+      for (int i = 0; i < pos - 1; i++)
+      {
+        prev = temp;
+        temp = temp->next;
+      }
+
+      prev->next = temp->next;
+      free(temp);
+      LENGTH--;
+      printf("Deleted!\n");
+    }
+  }
 }
 void delete_after(pNode* head, int pos){
   if (*head == NULL)
@@ -336,9 +367,6 @@ void delete_after(pNode* head, int pos){
     if (pos == LENGTH)
     {
       printf("There is no element after position %d\n", pos);
-    }
-     else if(pos == 2){
-      delete_at_start(head);
     }
     else if (pos > LENGTH || pos < 0)
     {
@@ -372,6 +400,9 @@ void delete_before(pNode* head, int pos){
   else{
     if(pos == 1){
       printf("\nThere is no element before position 1. Please enter valid position\n");
+    }
+    else if(pos == 2){
+      delete_at_start(head);
     }
     else if (pos > LENGTH || pos < 0)
     {
