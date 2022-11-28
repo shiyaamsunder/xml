@@ -337,6 +337,9 @@ void delete_after(pNode* head, int pos){
     {
       printf("There is no element after position %d\n", pos);
     }
+     else if(pos == 2){
+      delete_at_start(head);
+    }
     else if (pos > LENGTH || pos < 0)
     {
       printf("\nEnter valid position. Size of the list is %d\n", LENGTH);
