@@ -1,0 +1,230 @@
+{
+  "states": {
+    "state": [
+      {
+        "name": "Andhra Pradesh",
+        "capital": "Amaravati",
+        "area": 162975,
+        "pop": 49506799,
+        "crop": "Paddy",
+        "lang": "Telugu"
+      },
+      {
+        "name": "Arunachal Pradesh",
+        "capital": "Itanagar",
+        "area": 83743,
+        "pop": 1383727,
+        "crop": "Maize",
+        "lang": "English"
+      },
+      {
+        "name": "Assam",
+        "capital": "Dispur",
+        "area": 78550,
+        "pop": 31205576,
+        "crop": "Tea",
+        "lang": "Assamese"
+      },
+      {
+        "name": "Bihar",
+        "capital": "Patna",
+        "area": 94163,
+        "pop": 104099452,
+        "crop": "Paddy",
+        "lang": "Hindi"
+      },
+      {
+        "name": "Chhattisgarh",
+        "capital": "Raipur",
+        "area": 135194,
+        "pop": 25545198,
+        "crop": "Paddy",
+        "lang": "Chhattisgarhi"
+      },
+      {
+        "name": "Goa",
+        "capital": "Panaji",
+        "area": 3702,
+        "pop": 1458545,
+        "crop": "Paddy",
+        "lang": "Konkani"
+      },
+      {
+        "name": "Gujarat",
+        "capital": "GandhiNagar",
+        "area": 196024,
+        "pop": 60439692,
+        "crop": "Paddy",
+        "lang": "Cotton"
+      },
+      {
+        "name": "Haryana",
+        "capital": "Chandigarh",
+        "area": 44212,
+        "pop": 25351462,
+        "crop": "Wheat",
+        "lang": "Hindi"
+      },
+      {
+        "name": "Himachal Pradesh",
+        "capital": "Shimla",
+        "area": 55673,
+        "pop": 6864602,
+        "crop": "Paddy",
+        "lang": "Hindi"
+      },
+      {
+        "name": "Jharkhand",
+        "capital": "Ranchi",
+        "area": 74677,
+        "pop": 32988134,
+        "crop": "Paddy",
+        "lang": "Hindi"
+      },
+      {
+        "name": "Karnataka",
+        "capital": "Bangalore",
+        "area": 191791,
+        "pop": 61095297,
+        "crop": "Pepper",
+        "lang": "Kannada"
+      },
+      {
+        "name": "Kerala",
+        "capital": "Thriuvananthapuram",
+        "area": 38863,
+        "pop": 33406061,
+        "crop": "Coconut",
+        "lang": "Malayalam"
+      },
+      {
+        "name": "Madhya Pradesh",
+        "capital": "Bhopal",
+        "area": 308252,
+        "pop": 72626809,
+        "crop": "Hemp",
+        "lang": "Hindi"
+      },
+      {
+        "name": "Maharashtra",
+        "capital": "Mumbai",
+        "area": 307713,
+        "pop": 112374333,
+        "crop": "Cotton",
+        "lang": "Marathi"
+      },
+      {
+        "name": "Manipur",
+        "capital": "Imphal",
+        "area": 22347,
+        "pop": 2855794,
+        "crop": "Paddy",
+        "lang": "Meitei"
+      },
+      {
+        "name": "Meghalaya",
+        "capital": "Shillong",
+        "area": 22720,
+        "pop": 2966889,
+        "crop": "Paddy",
+        "lang": "English"
+      },
+      {
+        "name": "Mizoram",
+        "capital": "Aizawl",
+        "area": 21081,
+        "pop": 1097206,
+        "crop": "Paddy",
+        "lang": "Mizo"
+      },
+      {
+        "name": "Nagaland",
+        "capital": "Kohima",
+        "area": 16579,
+        "pop": 1978502,
+        "crop": "Tea",
+        "lang": "Nagaland"
+      },
+      {
+        "name": "Odisha",
+        "capital": "Bhubaneswar",
+        "area": 155820,
+        "pop": 41974218,
+        "crop": "Turmeric",
+        "lang": "Odia"
+      },
+      {
+        "name": "Punjab",
+        "capital": "Chandigarh",
+        "area": 50362,
+        "pop": 27743338,
+        "crop": "Wheat",
+        "lang": "Punjabi"
+      },
+      {
+        "name": "Rajasthan",
+        "capital": "Jaipur",
+        "area": 342269,
+        "pop": 68548437,
+        "crop": "Wheat",
+        "lang": "Hindi"
+      },
+      {
+        "name": "Sikkim",
+        "capital": "Gangtok",
+        "area": 7096,
+        "pop": 610577,
+        "crop": "Paddy",
+        "lang": "Nepali"
+      },
+      {
+        "name": "Tamil Nadu",
+        "capital": "Chennai",
+        "area": 130058,
+        "pop": 72147030,
+        "crop": "Paddy",
+        "lang": "Tamil"
+      },
+      {
+        "name": "Telangana",
+        "capital": "Hyderabad",
+        "area": 112077,
+        "pop": 35193978,
+        "crop": "Paddy",
+        "lang": "Telegu"
+      },
+      {
+        "name": "Tripura",
+        "capital": "Agartala",
+        "area": 10492,
+        "pop": 3673917,
+        "crop": "Paddy",
+        "lang": "Bengali"
+      },
+      {
+        "name": "Uttar Pradesh",
+        "capital": "Lucknow",
+        "area": 243286,
+        "pop": 199812341,
+        "crop": "Wheat",
+        "lang": "Hindi"
+      },
+      {
+        "name": "Uttarakhand",
+        "capital": "Bhararisain",
+        "area": 53483,
+        "pop": 10086292,
+        "crop": "Paddy",
+        "lang": "Hindi"
+      },
+      {
+        "name": "West Bengal",
+        "capital": "Kolkata",
+        "area": 88752,
+        "pop": 91276115,
+        "crop": "Jute",
+        "lang": "Bengali"
+      }
+    ]
+  }
+}
