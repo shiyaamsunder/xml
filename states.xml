@@ -1,13 +1,3 @@
-<!DOCTYPE note [
-<!ELEMENT states (state+)>
-<!ELEMENT state (name, capital, area, pop, crop)>
-<!ELEMENT name (#PCDATA)>
-<!ELEMENT captial (#PCDATA)>
-<!ELEMENT area (#PCDATA)>
-<!ELEMENT pop (#PCDATA)>
-<!ELEMENT crop (#PCDATA)>
-]>
-
 <?xml version="1.0"?>
 <states>
   <state>
@@ -79,7 +69,6 @@
     <capital>Shimla</capital>
     <area>55673</area>
     <pop>6864602</pop>
-    <lang>Hindi</lang>
     <crop>Paddy</crop>
     <lang>Hindi</lang>
   </state>
